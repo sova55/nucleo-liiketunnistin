@@ -24,7 +24,7 @@ int main()
  
 		long distance = sensor.distance(); 
 
-		if(distance < 60) {
+		if(distance < 20) {
 			pc.printf("1");
 		
 	}
